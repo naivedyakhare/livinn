@@ -4,7 +4,7 @@
     background-color: #fff;
   }
   .overtop-mobile-nav .logo {
-    width: 15% !important;
+    width: 35% !important;
   }
   .mean-container .mean-bar {
     border-bottom: none !important;
@@ -583,7 +583,7 @@
     max-width: 100%;
   }
   .overtop-mobile-nav .logo {
-    width: 10% !important;
+    width: 25% !important;
   }
   .contactForm .send-btn input[type=checkbox], .contactForm .send-btn input[type=radio] {
     position: absolute;
@@ -673,7 +673,7 @@
     padding: 16px 15px 0 0;
   }
   .overtop-mobile-nav .logo {
-    width: 10% !important;
+    width: 22% !important;
   }
   .banner-area {
     padding-top: 210px;
@@ -1101,10 +1101,15 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
   .overtop-nav .navbar .navbar-nav .nav-item a {
     font-size: 14px;
   }
+
+  .overtop-mobile-nav .logo {
+    width: 10% !important;
+  }
+
   .overtop-nav .navbar .navbar-nav .nav-item a i {
     font-size: 10px;
   }
@@ -1358,9 +1363,6 @@
   .others-options .appoinment-btn .appoinment-btn-one {
     padding: 10px 10px;
     font-size: 14px;
-  }
-  .navbar-brand img {
-    width: 65px;
   }
   .footer-info li {
     padding-left: 20px;

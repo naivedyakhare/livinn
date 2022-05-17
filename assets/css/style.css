@@ -534,32 +534,16 @@ Navbar CSS
 Banner Area CSS
 =================================================*/
 .banner-area {
-<<<<<<< HEAD
+  height: 100vh;
   background-color: #EF6C00 !important;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100%;
   position: relative;
   z-index: 1;
   padding-top: 100px;
   padding-bottom: 230px;
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
-=======
-  height: 100vh;
-  background-color: #EF6C00 !important;
-  /* height: 100%; */
-  position: relative;
-  z-index: 1;
-  padding-top: 100px;
-  /* padding-bottom: 230px; */
-  display: flex;
   justify-content: space-around;
   align-items: center;
->>>>>>> 782380fa9feb6902be39ba8f14ebcedc034b0544
 }
-
 .banner-area::before {
   position: absolute;
   content: "";
@@ -976,7 +960,7 @@ About Section CSS
 }
 
 .about-image {
-  width: 130%;
+  width: 100%;
   margin-bottom: 22px;
 }
 .below-banner-image {

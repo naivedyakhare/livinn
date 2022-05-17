@@ -534,7 +534,7 @@ Navbar CSS
 Banner Area CSS
 =================================================*/
 .banner-area {
-  background-color: rgb(201, 132, 3) !important;
+  background-color: #E46F5C !important;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100%;
@@ -551,7 +551,6 @@ Banner Area CSS
   width: 100%;
   left: 0;
   top: 0;
-  /* background: #000000; */
   z-index: -1;
   opacity: 0.5;
 }

@@ -291,7 +291,9 @@ Navbar CSS
   padding-top: 0;
   padding-bottom: 0;
 }
-
+.navbar-brand img{ 
+  transform: scale(0.9);
+}
 .overtop-nav {
   background-color: #ffffff;
   padding-top: 10px;

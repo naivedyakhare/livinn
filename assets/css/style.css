@@ -534,7 +534,7 @@ Navbar CSS
 Banner Area CSS
 =================================================*/
 .banner-area {
-  background-color: #E46F5C !important;
+  background-color: #EF6C00 !important;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100%;
@@ -664,17 +664,19 @@ Banner Area CSS
 .banner-video .discover-btn .discover-btn-one {
   display: inline-block;
   padding: 14px 30px;
-  background-color: #EF6C00;
-  color: #ffffff;
+  background-color: white;
+  color: #EF6C00;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #EF6C00;
+  border: 2px solid #EF6C00;
   -webkit-transition: .6;
   transition: .6;
+  border-radius: 3px;
 }
 
 .banner-video .discover-btn .discover-btn-one:hover {
   background-color: transparent;
+  border: 2px solid white;
   color: #ffffff;
   text-decoration: none;
 }

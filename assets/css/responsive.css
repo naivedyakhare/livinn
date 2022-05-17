@@ -1,10 +1,38 @@
 /* Responsive css*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+  .about-section {
+    width: 100% !important;
+  }
+  .about-image {
+    width: inherit;
+  }
+  .banner-area {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner-content {
+    width: 100% !important;
+  }
+  .banner-content { 
+    width: 95%;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .overtop-mobile-nav {
     background-color: #fff;
   }
   .overtop-mobile-nav .logo {
     width: 35% !important;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .below-banner-image {
+    padding-top: 130px;
+    width: 40%;
+    margin: auto;
   }
   .mean-container .mean-bar {
     border-bottom: none !important;
@@ -65,6 +93,7 @@
     margin: 0 0 20px 0;
   }
   .about-section {
+    width: 50%;
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;
@@ -73,6 +102,7 @@
     margin-bottom: 10px;
   }
   .about-content {
+    width: 100%;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -579,6 +609,21 @@
     top: 32%;
     bottom: unset;
   }
+  .banner-area {
+    flex-direction: column;
+    align-items: center;
+  }
+  .below-banner-image {
+    padding-top: 130px;
+    width: 40%;
+    margin: auto;
+  }
+  .about-section {
+    width: 100%;
+  }
+  .about-image {
+    width: inherit;
+  }
   .blog-slider .blog-item .blog-content {
     max-width: 100%;
   }
@@ -675,8 +720,24 @@
   .overtop-mobile-nav .logo {
     width: 22% !important;
   }
+  .about-content {
+    width: 100%;
+  }
   .banner-area {
     padding-top: 210px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .banner-content {
+    width: 90%;
+  }
+  .below-banner-image {
+    padding-top: 130px;
+    width: 40%;
+    margin: auto;
   }
   .navbar-nav {
     overflow: auto;
@@ -1105,11 +1166,12 @@
   .overtop-nav .navbar .navbar-nav .nav-item a {
     font-size: 14px;
   }
-
+  .about-content {
+    width: 150%;
+  }
   .overtop-mobile-nav .logo {
     width: 10% !important;
   }
-
   .overtop-nav .navbar .navbar-nav .nav-item a i {
     font-size: 10px;
   }
@@ -1409,6 +1471,9 @@
   .banner-area {
     height: 100vh;
     position: relative;
+  }
+  .about-content {
+    width: 60%;
   }
   .banner-video {
     position: relative;

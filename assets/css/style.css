@@ -534,7 +534,7 @@ Navbar CSS
 Banner Area CSS
 =================================================*/
 .banner-area {
-  background-color: #E46F5C !important;
+  background-color: #EF6C00 !important;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100%;
@@ -542,6 +542,9 @@ Banner Area CSS
   z-index: 1;
   padding-top: 100px;
   padding-bottom: 230px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .banner-area::before {
@@ -553,6 +556,10 @@ Banner Area CSS
   top: 0;
   z-index: -1;
   opacity: 0.5;
+}
+
+.banner-content {
+  width: 60%;
 }
 
 .main-banner-content {
@@ -664,17 +671,18 @@ Banner Area CSS
 .banner-video .discover-btn .discover-btn-one {
   display: inline-block;
   padding: 14px 30px;
-  background-color: #EF6C00;
-  color: #ffffff;
+  background-color: white;
+  color: #EF6C00;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #EF6C00;
+  border: 2px solid #EF6C00;
   -webkit-transition: .6;
   transition: .6;
 }
 
 .banner-video .discover-btn .discover-btn-one:hover {
   background-color: transparent;
+  border: 2px solid white;
   color: #ffffff;
   text-decoration: none;
 }
@@ -872,6 +880,7 @@ About Section CSS
 }
 
 .about-content {
+  width: 150%;
   padding-right: 20px;
 }
 
@@ -943,9 +952,14 @@ About Section CSS
 }
 
 .about-image {
+  width: 130%;
   margin-bottom: 22px;
 }
-
+.below-banner-image {
+  padding-top: 60px;
+  width: 30%;
+  margin: auto;
+}
 .about-image:last-child {
   margin-bottom: 0;
 }

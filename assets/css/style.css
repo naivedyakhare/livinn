@@ -291,9 +291,6 @@ Navbar CSS
   padding-top: 0;
   padding-bottom: 0;
 }
-.navbar-brand img{ 
-  transform: scale(0.9);
-}
 .overtop-nav {
   background-color: #ffffff;
   padding-top: 10px;
@@ -572,10 +569,11 @@ Banner Area CSS
 }
 
 .main-banner-content h1 {
-  font-size: 90px;
+  font-size: 70px;
   color: #ffffff;
-  max-width: 700px;
+  max-width: 820px;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .main-banner-content p {
@@ -591,7 +589,7 @@ Banner Area CSS
   position: absolute;
   content: "";
   height: 2px;
-  width: 35%;
+  width: 65%;
   background-color: #ffffff;
   bottom: 0;
   left: 0;

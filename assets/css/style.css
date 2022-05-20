@@ -4881,8 +4881,17 @@ Footer Section CSS
 .footer-info i {
   margin-right: 4px;
 }
+.footer-info a {
 
-.footer-list {
+  color: #b3adad;
+}
+.footer-info a:hover {
+  text-decoration: none;
+  color: #EF6C00;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+.footer-list { 
   padding-left: 0;
   margin-bottom: 0;
 }

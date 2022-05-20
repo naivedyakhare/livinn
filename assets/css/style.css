@@ -4778,6 +4778,9 @@ Footer Section CSS
   position: relative;
   z-index: 1;
 }
+.footer-row-item {
+  text-align: center;
+}
 
 .footer-section::before {
   position: absolute;
@@ -4794,6 +4797,11 @@ Footer Section CSS
 
 .fooetr-item {
   text-align: center;
+}
+.footer-row-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
 .fooetr-item .footer-text p {

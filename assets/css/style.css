@@ -1664,10 +1664,16 @@ Top Services Section CSS
   padding-bottom: 100px;
   background-color: #f3f3f391;
 }
+.services { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+}
 
 .top-services-box {
-  position: relative;
-  padding-left: 100px;
+  padding-left: 0 !important;
+  display: block;
+  text-align: center;
 }
 
 .top-services-box h3 {
@@ -1685,8 +1691,14 @@ Top Services Section CSS
 }
 
 .top-services-box img {
-  position: absolute;
+  margin-bottom: 20px;
+  width: 45px !important;
   left: 0;
+}
+.services p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin:auto;
 }
 
 /*================================================

@@ -1,4 +1,15 @@
 /* Responsive css*/
+@media only screen and (max-width: 300px) {
+  .services {
+    grid-template-columns: 1fr !important;
+    row-gap: 100px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .services {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
 @media only screen and (min-width: 420px) and (max-width: 767px) {
   .banner-area {
     padding-bottom: 300px !important;
@@ -6,13 +17,16 @@
   .below-banner-image {
     width: 55% !important;
   }
-  .banner-area {
-    /* padding-bottom: 500px; */
+  .services {
+    grid-template-columns: 1fr 1fr !important;
   }
 }
 @media only screen and (max-width: 768px) {
   .about-section {
     width: 100% !important;
+  }
+  .services {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .about-image {
     width: 100%;
@@ -627,6 +641,9 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .services {
+    grid-template-columns: 1fr 1fr;
+  }
   .btn-content {
     padding: 43px 20px;
   }
@@ -746,6 +763,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .services {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .overtop-mobile-nav {
     background-color: #fff;
   }

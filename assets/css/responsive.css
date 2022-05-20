@@ -1,4 +1,15 @@
 /* Responsive css*/
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+  .banner-area {
+    padding-bottom: 300px !important;
+  }
+  .below-banner-image {
+    width: 55% !important;
+  }
+  .banner-area {
+    /* padding-bottom: 500px; */
+  }
+}
 @media only screen and (max-width: 768px) {
   .about-section {
     width: 100% !important;
@@ -8,7 +19,7 @@
     margin: auto;
   }
   .image-container { 
-    width: 100% !important;
+    width: 90% !important;
     margin: auto;
   }
 
@@ -20,10 +31,12 @@
     width: 100% !important;
   }
   .banner-content { 
-    width: 95%;
+    width: 100%;
+  }
+  .below-banner-image {
+    width: 65% !important;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .overtop-mobile-nav {
     background-color: #fff;
@@ -38,8 +51,11 @@
     width: 100%;
     margin: auto;
   }
+  .banner-content {
+    margin-top: 40%;
+  }
   .image-container { 
-    width: 100% !important;
+    width: 60% !important;
     margin: auto;
   } 
   .below-banner-image {
@@ -625,10 +641,11 @@
   .banner-area {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 400px !important;
   }
   .below-banner-image {
     padding-top: 130px;
-    width: 40%;
+    width: 50% !important;
     margin: auto;
   }
   .about-section {
@@ -756,6 +773,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-bottom: 150px;
   }
   .banner-content {
     width: 90%;

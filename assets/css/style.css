@@ -538,8 +538,6 @@ Banner Area CSS
   background-color: #EF6C00 !important;
   position: relative;
   z-index: 1;
-  padding-top: 100px;
-  padding-bottom: 230px;
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -2370,7 +2370,7 @@ coliving Places section CSS
   background-color: white;
   text-align: center;
   transition-duration: 200ms;
-  padding: 10px;
+  padding: 10px 15px 10px 15px;
   border: 2px solid #EF6C00;
   margin: 5px;
   border-radius: 25px;

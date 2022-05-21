@@ -2341,9 +2341,13 @@ Slider Area CSS
 coliving Places section CSS
 =================================================*/
 .coliving-places {
+  padding-top: 1px !important;
   background-color: #EF6C00;
   color: white;
   padding: 50px 0px 50px 0px;
+}
+.section-title h3::before {
+  background-color: white;
 }
 .coliving-places-content {
   width: 70%;

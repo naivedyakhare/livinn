@@ -2346,7 +2346,7 @@ coliving Places section CSS
   padding: 50px 0px 50px 0px;
 }
 .coliving-places-content {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 .coliving-places ul {
@@ -2374,6 +2374,9 @@ coliving Places section CSS
   border: 2px solid #EF6C00;
   margin: 5px;
   border-radius: 25px;
+}
+.coliving-places .section-title {
+  margin-bottom: 0px;
 }
 .coliving-places ul li:hover {
   border: 2px solid white;

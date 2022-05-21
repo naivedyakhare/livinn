@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 1fr !important;
   }
   .coliving-places-content {
-    width: 80%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 767px) {
@@ -24,7 +24,7 @@
     grid-template-columns: 1fr 1fr !important;
   }
   .coliving-places-content {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 }
@@ -774,7 +774,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .coliving-places-content {
-    width: 70%;
+    width: 90%;
     margin: auto;
   }
   .overtop-mobile-nav {

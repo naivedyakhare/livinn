@@ -9,6 +9,9 @@
   .services {
     grid-template-columns: 1fr 1fr !important;
   }
+  .coliving-places-content {
+    width: 80%;
+  }
 }
 @media only screen and (min-width: 420px) and (max-width: 767px) {
   .banner-area {
@@ -19,6 +22,10 @@
   }
   .services {
     grid-template-columns: 1fr 1fr !important;
+  }
+  .coliving-places-content {
+    width: 80%;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -766,7 +773,10 @@
   .services {
     grid-template-columns: 1fr 1fr 1fr;
   }
-
+  .coliving-places-content {
+    width: 70%;
+    margin: auto;
+  }
   .overtop-mobile-nav {
     background-color: #fff;
   }

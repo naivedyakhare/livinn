@@ -2337,6 +2337,51 @@ Slider Area CSS
   right: 0;
   margin: auto;
 }
+/*===============================================
+coliving Places section CSS
+=================================================*/
+.coliving-places {
+  background-color: #EF6C00;
+  color: white;
+  padding: 50px 0px 50px 0px;
+}
+.coliving-places-content {
+  width: 50%;
+  margin: auto;
+}
+.coliving-places ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.coliving-places-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+.coliving-places a {
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 200ms;
+}
+.coliving-places ul li {
+  color: #EF6C00;
+  background-color: white;
+  text-align: center;
+  transition-duration: 200ms;
+  padding: 10px;
+  border: 2px solid #EF6C00;
+  margin: 5px;
+  border-radius: 25px;
+}
+.coliving-places ul li:hover {
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: #EF6C00;
+  color: white;
+}
+
 
 /*================================================
 Memory Section CSS
